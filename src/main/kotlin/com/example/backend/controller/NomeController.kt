@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.RestController
 
 @RestController
 @RequestMapping("/nomes")
-
 @CrossOrigin(origins = ["http://localhost:8080/nomes"])
 class NomeController(private val nomeService: NomeService) {
 

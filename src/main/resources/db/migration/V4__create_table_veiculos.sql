@@ -1,0 +1,8 @@
+CREATE TABLE veiculos (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    motorista VARCHAR(255) NOT NULL,
+    facility VARCHAR(255) NOT NULL,
+    servico VARCHAR(255) NOT NULL,
+    eta VARCHAR(255) NOT NULL,
+    tipo_veiculo VARCHAR(255) NOT NULL
+);
